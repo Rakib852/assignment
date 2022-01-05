@@ -1,5 +1,11 @@
 body{
     font-family: 'Acme', sans-serif;
+    margin: 0;
+}
+.heider-main{
+    background-image: url(images/banner12.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
 h1{
     font-size: 70px;
@@ -36,4 +42,52 @@ h1{
 }
 .simple{
     padding-top: 20px;
+}
+.others{
+    text-align: center;
+}
+.middle-mission{
+    height: 400px;
+    width: 30%;
+    margin-left: 3%;
+    margin-right: 3%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+    padding: 40px;
+}
+.halp-width{
+    display: flex;
+}
+.middle-mission img{
+    width: 45%;
+}
+#box-one{
+    background-color: #e7eef5;
+}
+#box-two{
+    background-color: #f7e8e1;
+}
+#box-tree{
+    background-color: #f1ebce;
+}
+#develop-flex{
+    padding-bottom: 50px;
+}
+.width-four{
+    width: 110%;
+    border-radius: 40px;
+}
+.main-container{
+    background-image: url(images/side1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+#width-five{
+    width: 100%;
+    border-radius: 40px;
+}
+.last-one{
+    background-image: url(images/side2.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
